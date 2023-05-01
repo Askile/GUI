@@ -23,3 +23,12 @@ window.gui.createElements([
     {type: "switch", label: "Press", parent: "Functions", object: settings, property: "boolean"}
 ]);
 ```
+
+U can customize config or use patterns
+```javascript
+
+window.gui.config = window.gui.patterns.dark_crimson;// dark_crimson|dark_ocean
+
+window.gui.config.descriptionColor = "black";
+window.gui.config.folder.textColor = "white";
+```
