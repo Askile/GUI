@@ -6,7 +6,7 @@ Example:
 
 let settings = {
   lighting = 0,
-  boolean = false;
+  boolean = false
 };
 
 function sayHello(){
