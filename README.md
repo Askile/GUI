@@ -5,8 +5,8 @@ Example:
 ```javascript
 
 let settings = {
-  lighting = 0,
-  boolean = false
+  lighting: 0,
+  boolean: false
 };
 
 function sayHello(){
